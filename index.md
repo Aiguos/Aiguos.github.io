@@ -18,9 +18,7 @@ We were also able to experiment further with the brick breaker game, so that now
 All that would be required now is to add more imarge targets to work as bricks to be destroyed, that would be able to give a minimal viable product for the brick breaker game.
 
 
-
-
-[![Alt text](https://img.youtube.com/vi/ryngT-RShsA/0.jpg)](https://www.youtube.com/watch?v=ryngT-RShsA)
+<iframe width="560" height="315" src="https://www.youtube.com/embed/ryngT-RShsA" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/HyWZ5eS5H48" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
 
