@@ -24,4 +24,24 @@ All that would be required now is to add more imarge targets to work as bricks t
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/PZm6BHpJhmk" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
 
+### Week 3
+
+During this week we first presented what we had made for the marker based AR card game, the games we presented was the prototype or proof of concept the 'brick breaker' and the laser game. 
+
+More information on the two games can be read about in week 1-2.
+
+After the presentation we were introduced to markerless AR, here we also started implementing a project. The requirements was that the markerless AR game should be "add experience in a meaningful way", hence things to consider was which domain(s) to use such as biology, geography and astronomy.
+
+The domain we chose was astronomy, this decision was mostly based on something we had previously created. This to augment a virtual solar system which the user would then be able to view. 
+
+Somethings which were to be considered was, if we wanted to perhaps let the player be able to interact with the solar system in some way. However we have yet to decide on that.
+
+When augmenting the solar system, we had a few issues such as the suns particles, rotation speed of the planets around the sun were too fast and the scaling of most planets were too large.
+
+We also made a few changes from the non AR version to the AR version, one of which was to be able to immerse the player more into the game by removing the linerenderer which created the visual aspect of the orbit lanes.
+
+A thing we also have considered to implement to further captivize the player is to implement a sort of 'skybox' so that the user will feel as though he is in space and viewing the solar system!
+
+During this week a lot of considerations were made as mentioned, but we also got to do the implementation. View the video in this section for week 3 to view what we were so far able to implement!
+
 <iframe width="560" height="315" src="https://www.youtube.com/embed/1xA4zpKZsHI" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
