@@ -45,3 +45,11 @@ A thing we also have considered to implement to further captivize the player is 
 During this week a lot of considerations were made as mentioned, but we also got to do the implementation. View the video in this section for week 3 to view what we were so far able to implement!
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/1xA4zpKZsHI" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+
+### Week 4
+
+We spent a lot of times trying to work out why the scaling of the solar system would not work.
+After hours of discussion and a lot of debugging we concluded that a variable is getting a weird value set even though it should not get a value like this at any point in the code.
+
+We therefore accepted defeat and ignored the scaling issue and finished the demo with some minor tweaks like a freeze button that would stop every planet from rotating around the sun when the program registered at finger press.
+
