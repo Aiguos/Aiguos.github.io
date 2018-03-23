@@ -69,5 +69,10 @@ We then discussed how we could split the touchpad up into 4 zones so it would wo
 After a few hours of descussion and coding a solution was made so the car is able to drive forward, backwards, left and right with no issue.
 However the teleport function had some issues since we wanted the user to teleport to the back of the car and not directly on it.
 
+We also wanted the teleport function to fade to black and then fade back in, as to reduce the risk of motion sickness. But we didn't get it to work, we tried to use some coroutines that would increase and reduce the alpha value of an image as to simulate a fade in and fade out. 
+
+Later we stumbled up OVRScreenfade, this could be used between scenes, but also mid scenes to introduce screen fade. However, we did not quite get this to work either.
+
+
 
 
