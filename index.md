@@ -53,3 +53,13 @@ After hours of discussion and a lot of debugging we concluded that a variable is
 
 We therefore accepted defeat and ignored the scaling issue and finished the demo with some minor tweaks like a freeze button that would stop every planet from rotating around the sun when the program registered at finger press.
 
+### Week 5
+
+We presented the solarsystem application runnning the ARcore from google in class to the other student and got a new assignment.
+Using Samsung Gear VR and its controller we were to make a small vr "game" that would demonstrate the locomotion and movement in a virtual space using these devices to move an object or move around the world ourself.
+
+We decided on making a small mini game were the user controls a small race car and is able to turn left,right and reverse, as a extra feature the user would be able to teleport to the car in order to keep track of the car when operating it.
+
+
+
+
