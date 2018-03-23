@@ -60,6 +60,14 @@ Using Samsung Gear VR and its controller we were to make a small vr "game" that 
 
 We decided on making a small mini game were the user controls a small race car and is able to turn left,right and reverse, as a extra feature the user would be able to teleport to the car in order to keep track of the car when operating it.
 
+### Week 6
+
+We started implementing the solution and we all agreed on that the graphics would not be a requirement for this exercise rather the functionaly of of the locomitive and movement in a virtual space would work well enough for show.
+We started by testing if we were able to control a simple cube in virtual reality using the controller, and this worked out pretty well.
+We then discussed how we could split the touchpad up into 4 zones so it would work as 4 buttons on the controller to control the race car, to move left,right, reverse and teleport the user near the car if neccessary.
+
+After a few hours of descussion and coding a solution was made so the car is able to drive forward, backwards, left and right with no issue.
+However the teleport function had some issues since we wanted the user to teleport to the back of the car and not directly on it.
 
 
 
