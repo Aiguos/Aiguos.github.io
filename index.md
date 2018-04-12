@@ -81,5 +81,8 @@ Later we stumbled up OVRScreenfade, this could be used between scenes, but also 
 
 We presented our solution to locomotive tasm using a virtual reality game and presenting inside that game aswell.
 After the presentation we were given af new task using emmersive audio ( Resonance audio ) plugin for unity3d.
-WHat the resonance audio gives you is emmersive sound so that the sound produced in the scene is beeing "bounced" around the room correctly and hitting the "ears" correctly.
+WHat the resonance audio gives you is emmersive sound so that the sound produced in the scene is beeing "bounced" around the room hitting the "ears" correctly.
+
+We decided making a blind game were the player can control at helicopter with WASD and be able to hear the opper is movent.
+
 
