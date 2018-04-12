@@ -77,7 +77,9 @@ Later we stumbled up OVRScreenfade, this could be used between scenes, but also 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/upoRDpEDgoc" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
 
 
-### Week 7
+### Week 7  - Week 8
 
-We presented our solution to locomotive using a virtual reality game and presenting inside that game aswell.
-After the presentation we were given af new task using emmersive audio ( Resonance audio ) from google.
+We presented our solution to locomotive tasm using a virtual reality game and presenting inside that game aswell.
+After the presentation we were given af new task using emmersive audio ( Resonance audio ) plugin for unity3d.
+WHat the resonance audio gives you is emmersive sound so that the sound produced in the scene is beeing "bounced" around the room correctly and hotting the "ears" correctly.
+
