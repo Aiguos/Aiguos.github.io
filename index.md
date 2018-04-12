@@ -84,5 +84,5 @@ After the presentation we were given af new task using emmersive audio ( Resonan
 WHat the resonance audio gives you is emmersive sound so that the sound produced in the scene is beeing "bounced" around the room hitting the "ears" correctly.
 
 We decided making a blind game were the player can control at helicopter with WASD and be able to hear the opper is movent.
-
+<blockquote class="imgur-embed-pub" lang="en" data-id="a/d2vKL"><a href="//imgur.com/d2vKL"></a></blockquote><script async src="//s.imgur.com/min/embed.js" charset="utf-8"></script>
 
