@@ -86,3 +86,52 @@ WHat the resonance audio gives you is emmersive sound so that the sound produced
 We decided making a blind game were the player can control at helicopter with WASD and be able to hear the opper is movent.
 <blockquote class="imgur-embed-pub" lang="en" data-id="a/d2vKL"><a href="//imgur.com/d2vKL"></a></blockquote><script async src="//s.imgur.com/min/embed.js" charset="utf-8"></script>
 
+### Week 9
+
+During this week we formulated our game design document, this document contains all relevant considerations as well as technologies that we expect to utilize to formulate the project. Furthermore, the minimum viable product has also been considered for the project.
+
+Game title: VR Batter
+
+Brief description of the game
+
+The game is basically that the player will take the role as a batter, and then there will be a pitcher throwing baseballs towards the player, the player is then supposed to hit the baseball. 
+
+Assets: 
+
+Baseball bat prefabs from Unity marketplace (Can be found free)
+Possible baseball stadium (No free on marketplace, but perhaps some can be found from other sources.)
+Baseball prefabs from Unity marketplace (Workaround if it can’t be found, could simple be a sphere.)
+Prefabs of baseball players, to immerse the player even further.
+
+Purpose
+
+The purpose of the game is to help the user increase their reaction time and accuracy. By allowing them to train batting in a virtual environment that is supposed to ‘emulate’ a situation in which the player is the batter.
+
+Technologies to experiment with
+
+Object interaction in VR
+Interaction with the bat and baseball connecting, if the player hits the ball
+Some links to documentation for this technology: 
+http://academyofvr.com/intro-vr-development-unity-htc-vive/ (From: Mads)
+https://vrtoolkit.readme.io/ (From: Kasper)
+Spatialized audio
+Sound of the ball approaching
+Sound of hitting the ball
+Sound of audience cheering in background (Optional.)
+	
+
+Hardware to use for this experience
+
+The game will be developed using HTC vive.
+
+Scripts that we expect to create for this experience
+
+This section has been deliberately left out, as we intend to first research the object interaction in VR. And determine which tool we should use.
+
+Minimum viable product (MVP)
+
+This document lists several features and components that could be added to the game. E.g. a baseball stadium and baseball players as well as spatialized audio for an audience cheering and the sound of the baseball approaching as well as the sound of hitting the baseball. These mentioned parts aren’t strictly necessary to deliver the concept, however they would be good to have as it can help immerse the player and make him/her feel as though he/she is a batter in a baseball game.
+
+The minimum viable product for this game is the object interaction and that there is a ‘pitcher’ (The pitcher could simply be a cube), but the pitcher would be the game object to shoot out baseballs towards the player.
+
+
