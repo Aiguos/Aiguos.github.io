@@ -109,15 +109,15 @@ The purpose of the game is to help the user increase their reaction time and acc
 
 ### Technologies to experiment with
 
-Object interaction in VR
-Interaction with the bat and baseball connecting, if the player hits the ball
-Some links to documentation for this technology: 
-http://academyofvr.com/intro-vr-development-unity-htc-vive/ (From: Mads)
-https://vrtoolkit.readme.io/ (From: Kasper)
-Spatialized audio
-Sound of the ball approaching
-Sound of hitting the ball
-Sound of audience cheering in background (Optional.)
+* Object interaction in VR
+	* Interaction with the bat and baseball connecting, if the player hits the ball
+	* Some links to documentation for this technology: 
+		* http://academyofvr.com/intro-vr-development-unity-htc-vive/ (From: Mads)
+		* https://vrtoolkit.readme.io/ (From: Kasper)
+* Spatialized audio
+	* Sound of the ball approaching
+	* Sound of hitting the ball
+	* Sound of audience cheering in background (Optional.)
 	
 
 ### Hardware to use for this experience
