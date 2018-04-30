@@ -135,3 +135,7 @@ This document lists several features and components that could be added to the g
 The minimum viable product for this game is the object interaction and that there is a ‘pitcher’ (The pitcher could simply be a cube), but the pitcher would be the game object to shoot out baseballs towards the player.
 
 
+### Week 10
+
+We started out by getting the feeling on how unity and steamvr was working, we then set out to make diffrent demo's testing how the build in features handling physics in the game was acting when met with diffrent scenarios.
+This quickly showed us that the build in phsycis engine could not handle the speed of the moving object and sometimes the object would not get regonized by the collision detection system and just pass through the object itself.
