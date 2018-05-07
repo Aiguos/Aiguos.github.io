@@ -209,6 +209,12 @@ Deflection of the balls were simply deflecting any type of ball, but not the act
 
 ### Week 11
 
+Since we had the MVP we decided to do some goldplating in order to make the game look and feel better.
+We planned that we would implement a color based minigame into the main game it self to make it more challengi, we did this by making one shield blue and another red with 2 ball object with the same colors.
+
+The idea is now that you have to deflect the ball with the same colored shield in order to get point or you will loose hp, at the same time we implemented at UI for the user to see hes/her score,hp and wave number during the game, these were sat into the scene to act like big billboards in order to make them readable.
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/cWcrJckIIC4" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
 
 
 
