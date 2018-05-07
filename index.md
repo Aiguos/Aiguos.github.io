@@ -154,6 +154,7 @@ The document can be found below:
 The game is basically that the player spawns inside a predefined play area, then 3 turrets will aim towards you and fire balls towards you. The intent is that the player should either block or evade the incoming balls.
 There are two types of balls in the game (red and blue) and two types of shield (red and blue). The player should block with the correct shield to increase his/hers score and to avoid taking damage.
 If the player should block with the wrong shield, they will not gain any score; But they will only take half damage instead of full damage.
+The game will also feature spatialized audio, this audio intends to help the player identify which turrets haved fired a shot towards them. As the turrets will be placed such that there is one in front of the player, to the right of the player and to the left of the player.
 
 ### Assets: 
 
@@ -175,7 +176,7 @@ The purpose of the game is to improve the players reaction time, by starting out
 		* http://academyofvr.com/intro-vr-development-unity-htc-vive/ (From: Mads)
 		* https://vrtoolkit.readme.io/ (From: Kasper)
 * Spatialized audio
-	* Sound of the ball approaching
+	* Sound of the ball being deflected
 	* Sound of the turret firing the ball
 	
 
@@ -192,10 +193,22 @@ The responsibility of the score manager would simply be to collect the score, ev
 Correct shield is classified as blocking a blue ball with the blue shield.  
 
 ### Minimum viable product (MVP)
-The minimum viable product for this game would be the essential mechanics; As in the mechanics for the player to deflect and take damage from the balls. 
+The minimum viable product for this game would be the essential mechanics; As in the mechanics for the player to deflect and take damage from the balls. As well as the scripts that'd allow for the turrets to fire towards the player.
+
 An added difficulty for the player, is that he/she is required to block incoming balls with the correct shield to gain score and avoid damage. However, as this could be implemented only to be one type of ball; Meaning that the player would only need to focus on deflecting balls with any of the two shields; Instead of having to also identify the type of incoming ball and then deflecting it with the correct shield.
 
+### ____________________________________________________________________________________________
+
+During this week we were able to implement the minimum viable product, in essence we were able to implement object interaction for deflection of the balls. As well as the scripts required for managing the enemies (the shooters).
+
+Some additional gold plating was also added during the week, this was audio (However not spatialized.)
+
+Deflection of the balls were simply deflecting any type of ball, but not the actual implementation of having to block with the correct shield to avoid damage and increase ones score.
+
+
+
 ### Week 11
+
 
 
 
