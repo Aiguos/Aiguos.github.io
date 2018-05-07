@@ -157,10 +157,10 @@ If the player should block with the wrong shield, they will not gain any score; 
 
 ### Assets: 
 
-Shield prefabs from Unity marketplace (Can be found free)
-Ball (Sphere with glow.)
-Turrets (Unity marketplace)
-Space Skybox (Unity marketplace)
+* Shield prefabs from Unity marketplace (Can be found free)
+* Ball (Sphere with glow.)
+* Turrets (Unity marketplace)
+* Space Skybox (Unity marketplace)
 
 ### Purpose
 
