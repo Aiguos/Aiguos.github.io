@@ -138,4 +138,15 @@ The minimum viable product for this game is the object interaction and that ther
 ### Week 10
 
 We started out by getting the feeling on how unity and steamvr was working, we then set out to make diffrent demo's testing how the build in features handling physics in the game was acting when met with diffrent scenarios.
-This quickly showed us that the build in phsycis engine could not handle the speed of the moving object and sometimes the object would not get regonized by the collision detection system and just pass through the object itself.
+
+This quickly showed us that the build in phsycis engine could not handle the speed of the moving object and sometimes the object would not get regonized by the collision detection system and just pass through the object itself. We tried several things such as allowing the interacting colliders to be continous dynamic; Which should be used for high speed collisions. But this didn't work either, as sometimes it still simply went through the bat.
+
+We discussed a bit in regards to what we could do instead; We decided to implement a slightly different game, however it would still be based on improving ones reaction time; But it can also help with physical activity as the game would allow for evading and blocking incoming balls.
+
+As such we wrote a new game design in regards to this alteration, and this document intends to describe the altered game.
+
+The document can be found below: 
+
+
+
+
