@@ -73,11 +73,13 @@ Of course, we still wanted to have an actual representation of a car in the game
 
 For locomotion, there were somethings that was not recommended. Such as when moving around, it could cause motion sickness when moving from once place to another. There were some solutions for this, such as blacking out the screen and then teleporting to a location. This was the way we decided to implement it, although we had difficulities introducing the blackout during the 'teleportation'.
 
-The locomotion was implemented so that it would 'teleport' the player to the location of the remote controlled car. This way even if the car got out of the players view, he/she could teleport to the location of the car and continue the game. Without trouble of always having to keep an eye on the remote controlled car.
+The locomotion was discussed to be implemented so that it would 'teleport' the player to the location of the remote controlled car. This way even if the car got out of the players view, he/she could teleport to the location of the car and continue the game. Without trouble of always having to keep an eye on the remote controlled car.
 
-As for the controls of the car, we introduced forward movement, reverse as well as being able to turn left or right.
+As for the controls of the car, we wanted to introduce basics such as forward movement, reverse as well as being able to turn left or right.
 
-Some of these features were relatively simple to implement, such as forward movement. However, for the left and right turn we had to somehow find a correct pattern in the controller.
+Some of these features we figured would be relatively simple to implement, such as forward movement. However, for the left and right turn we had to somehow find a correct pattern in the controller.
+
+After some initial experimenting with the controller, we figured out the following in regards to the 'touch pad' of the Gear VR controller, that we could help us implement a way to control left/right movement.
 
 We found out the 'touch' pad of the controller had would return an x and y value between -1 and 1, depending on where the touch pad was pressed. Using this knowledge, we did some experimenting on the controller to figure out in which cases it would return the respective values.
 
