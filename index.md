@@ -238,6 +238,12 @@ The idea is now that you have to deflect the ball with the same colored shield i
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/cWcrJckIIC4" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
 
+We decided to make a 4 way level were you would have to deflect from every 90 degree, however this was to hard for the player we den decided to change the angles and have 3 lanes with around 33 degree angle between them.
+After testing this shown to be the best middle way for how hard it would be and the entertainment as shown int he video above.
 
+### Week 12
+
+This week we would show out mini game to the rest of the class plus some other student and it quickly showed that out game gained alot of popularity during the showing event.
+One thing alot of testers was missing was a leaderboard which we did not implement for this demo.
 
 
