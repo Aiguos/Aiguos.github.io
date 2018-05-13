@@ -48,17 +48,39 @@ During this week a lot of considerations were made as mentioned, but we also got
 
 ### Week 4
 
-We spent a lot of times trying to work out why the scaling of the solar system would not work.
-After hours of discussion and a lot of debugging we concluded that a variable is getting a weird value set even though it should not get a value like this at any point in the code.
+For the implementation of the augmented solar system, we had some issues in regards to the scaling. By scaling we mean our 'zoom' feature, that'd allow the user to zoom in on a planet. However, this gave some issues as the touch was very sensitive and would send the solar system completely out of proportions.
 
-We therefore accepted defeat and ignored the scaling issue and finished the demo with some minor tweaks like a freeze button that would stop every planet from rotating around the sun when the program registered at finger press.
+There were some solutions to this problem, such as storing the initial scale of the solar system and introducing a reset feature. That the user could use, if he/she were unable to get back to the default scale. 
+
+But this solution did have some problems, such as not really 'fixing' the issue. But more or less being more of a workaround to the issue. As such we decided not to fix it using this method.
+
+Another solution to the problem would have been to implement a max and minimum zoom. And implement so that the zoom happened slowly and not 'spontaneusly' as were the current case. But not only that, implementing some sure of UI element that would allow the user to view the current zoom percentage would also be of benefit to the user experience.
+
+This was a more complex solution, and would take more time to implement and design. So, it was decided not to solve the problem using that method.
+
+However, we still wanted to introduce a feature to the application. So, we ended up deciding to implement a pause functionality or 'time freeze' functionality, that would make it so that the user could stop the rotation of the planets with a simple finger touch.
+
+This feature would then sort of cover the part of user interaction with the solar system.
 
 ### Week 5
 
 We presented the solarsystem application runnning the ARcore from google in class to the other student and got a new assignment.
 Using Samsung Gear VR and its controller we were to make a small vr "game" that would demonstrate the locomotion and movement in a virtual space using these devices to move an object or move around the world ourself.
 
-We decided on making a small mini game were the user controls a small race car and is able to turn left,right and reverse, as a extra feature the user would be able to teleport to the car in order to keep track of the car when operating it.
+For this game we decided to implement a 'remote controlled car' in virtual reality. As the purpose of the exercise was simply to experiment with mechanics (locomotion as well as the use of the Gear VR controller.) we decided not to design an aesthetically appealing application.
+
+Of course, we still wanted to have an actual representation of a car in the game, but that was also the extend of the aesthetics that we would add to the game. Otherwise our main concern was to add locomotion as well as to experiment with the gear VR controller.
+
+For locomotion, there were somethings that was not recommended. Such as when moving around, it could cause motion sickness when moving from once place to another. There were some solutions for this, such as blacking out the screen and then teleporting to a location. This was the way we decided to implement it, although we had difficulities introducing the blackout during the 'teleportation'.
+
+The locomotion was implemented so that it would 'teleport' the player to the location of the remote controlled car. This way even if the car got out of the players view, he/she could teleport to the location of the car and continue the game. Without trouble of always having to keep an eye on the remote controlled car.
+
+As for the controls of the car, we introduced forward movement, reverse as well as being able to turn left or right.
+
+Some of these features were relatively simple to implement, such as forward movement. However, for the left and right turn we had to somehow find a correct pattern in the controller.
+
+We found out the 'touch' pad of the controller had would return an x and y value between -1 and 1, depending on where the touch pad was pressed. Using this knowledge, we did some experimenting on the controller to figure out in which cases it would return the respective values.
+
 
 ### Week 6
 
@@ -79,7 +101,7 @@ Later we stumbled up OVRScreenfade, this could be used between scenes, but also 
 
 ### Week 7  - Week 8
 
-We presented our solution to locomotive tasm using a virtual reality game and presenting inside that game aswell.
+We presented our solution to locomotive task using a virtual reality game and presenting inside that game aswell.
 After the presentation we were given af new task using emmersive audio ( Resonance audio ) plugin for unity3d.
 WHat the resonance audio gives you is emmersive sound so that the sound produced in the scene is beeing "bounced" around the room hitting the "ears" correctly.
 
