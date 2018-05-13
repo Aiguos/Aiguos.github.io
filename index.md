@@ -105,7 +105,16 @@ We presented our solution to locomotive task using a virtual reality game and pr
 After the presentation we were given af new task using emmersive audio ( Resonance audio ) plugin for unity3d.
 WHat the resonance audio gives you is emmersive sound so that the sound produced in the scene is beeing "bounced" around the room hitting the "ears" correctly.
 
-We decided making a blind game were the player can control at helicopter with WASD and be able to hear the opper is movent.
+The idea was then to implement a virtual reality game for the blind using spatialized audio. As the game was supposed to be for the blind, we figured that we'd leave out any visuals within the game. As the target group for the game would be blind players. Although, even if not blind you'd still be able to play the game.
+
+The essential was that we implemented the game, so that the player should 'guess' where the sound is coming from. E.g. to the right, left or something inbetween. (such as directly behind, infront or perhaps a bit to the side.)
+
+Something had to generate the sound, so we decided that the sound would be of that of a chopper. Perhaps one could create a game story, where the player is in a predicament and to evacuate needs to find where the chopper is to be rescued.
+
+As such, the game was intended for 2 players. One would control where the sound would come from using the keys WASD and the player would then have to guess where the sound would originate from.
+
+A video can be found below to demonstrate the game 'in action':
+
 <blockquote class="imgur-embed-pub" lang="en" data-id="a/d2vKL"><a href="//imgur.com/d2vKL"></a></blockquote><script async src="//s.imgur.com/min/embed.js" charset="utf-8"></script>
 
 ### Week 9
