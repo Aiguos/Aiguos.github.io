@@ -1,4 +1,4 @@
-## Welcome to MIX reality group 
+## Welcome to MIX reality group SHIRT!
 
 
 ### Week 1 - Week 2
